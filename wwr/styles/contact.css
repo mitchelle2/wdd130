@@ -9,7 +9,7 @@
 
 body {
     font-family: var(--body-font);
-    background-color: #ebecec;
+    
 
 
 
@@ -24,6 +24,11 @@ header{
     align-items: center;
 }
 
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
 
 
 .logo{
@@ -53,48 +58,42 @@ nav a{
     box-sizing: border-box;
 }
 
-section{
-    position: relative;
-    z-index: 3;
-    padding-top: 50px;
-    padding-bottom:50px ;
-
+Section {
+    Max-width: 840px;
+    width: 800px;
+    Margin: 40px auto;
+    Padding: 20px;
+    background-color:rgb(133, 161, 172);
+    Border: 1px solid #ddd;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.container{
-    max-width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-left:20px ;
-    margin-right: 20px;
-
+section p {
+    color: #fff;
+    font-weight: 500;
 }
-.section-header{
-    margin-bottom:100px ;
+nav, p, section, article {
+    margin: 15px;
+    padding: 8px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(245, 242, 244);
     text-align: center;
 }
-
-.section-header h2{
-    color:rgb(60, 100, 113) ;
-    font-weight: bold ;
-    font-size: 3em;
-    margin-bottom: 20px;
-}
-
-.section-header p{
-    color: #0a0a0a;
-}
-
-.row{
-    display:flex ;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
 .employees {
-    background-color: rgb(254, 245, 249);
+    background-color: rgb(245, 242, 244);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -116,77 +115,33 @@ section{
     font-family: var(--body-font);
     opacity: 1;
 }
- .purpose{
-    text-align: center;
-    color: black;
-    font-size: 20px;
-    font-family: var(--heading-font);
+
+form {
+    display: grid;
+    background-color: rgb(245, 242, 244);
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px grey;
+}
+
+.input-box{
+    display: grid;
+    
     padding: 10px;
+    gap: 0px;
 }
 
-.contact-info{
-    width: 50%;
-}
 
-.contact-info-item{
-    display: flex;
-    margin-bottom: 30px
+.purpose {
+    display: grid;
+    grid-template-columns: 200px;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;}
 
-}
 
-.contact-info-icon{
-    font-size: 20px;
-    line-height: 70px;
-}
-
-.contact-info-content{
-    margin-left:10px ;
-}
-
-.contact-info-content h4{
-    color: rgb(60, 100, 113);
-}
-
-.contact-form{
-    padding: 40px;
-    width: 45%;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    background-color: aliceblue;
-}
-
-.contact-form h2{
-    font-weight: bold;
-    font-size: 2em;
-    margin-bottom: 10px;
-    color:rgb(60, 100, 113) ;
-}
-
-.contact-form-input-box{
-    position: relative;
-    width: 100%;
-    margin-top: 10px;
-
-}
-
-.contact-form .input-box input,
-.contact-form .input-box textarea{
-    width: 100%;
-    padding: 5px 0;
-    font-size: 16px;
-    margin: 10px  0;
-    border: none;
-    border-bottom: 2px solid black;
-}
-
-.contact-form .input-box span{
-    position:relative ;
-    left: 0;
-    padding: 5px;
-    font-size: 16px;
-    margin: 10px 0;
-    color:rgb(60, 100, 113) ;
-}
 
 textarea {
     height: 100px;
@@ -201,23 +156,21 @@ textarea {
     padding: 20px;
 }
 
-.submit{
+.form-button {
     text-align: center;
+    margin: 0 auto;
     cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
     font-size: 14px;
     font-weight: bold;
     font-family: var(--body-font);
     color: white;
-    background-color: rgb(92, 118, 129);
-    margin: 0px auto 10px;
-    padding: 10px;
+    background-color: gray;
     border-radius: 6px;
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
-    border-image: initial;
+    border: none;}
 
-}
+
 
 footer {
     background-color: var(--primary-color);
