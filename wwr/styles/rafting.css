@@ -11,14 +11,15 @@ header{
     color:var(--accent2-color);
     display: grid;
     grid-template-columns: auto 1fr;
-    padding: 30px;
+    padding: 10px;
     align-items: center;
 }
 
 .logo{
-width:150px;
+width:80px;
 padding: 10px;
 margin-left: 100px;
+border-radius: 100%;
 }
 
 nav{
@@ -125,17 +126,7 @@ nav, p, section, article {
     height: auto;
 }
 
-h1{
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #a61313;
-    
-}
+
 .hero article img {
   float: right;
   width: 125px; 
@@ -193,4 +184,412 @@ footer {
     text-align: center;
 }
 
+/*CONTACT US */
 
+.contact-head {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #0a0909;
+    font-family: var(--heading-font);
+}
+
+.contact-us {
+    Max-width: 840px;
+    width: 800px;
+    
+    background-color:rgb(133, 161, 172);
+    Border: 1px solid #ddd;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section p {
+    color: #fff;
+    font-weight: 500;
+}
+
+
+h2{
+
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(245, 242, 244);
+    text-align: center;
+}
+
+.employee-section {
+    Max-width: 840px;
+    width: 800px;
+    
+    background-color:rgb(133, 161, 172);
+    Border: 1px solid #ddd;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.employees {
+    background-color: rgb(245, 242, 244);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.employees figure img {
+    width: 120px;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.employees figcaption {
+    text-align: center;
+    font-size: 10px;
+    width: 120px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: var(--body-font);
+    opacity: 1;
+}
+
+.message-us {
+    Max-width: 840px;
+    width: 800px;
+    
+    background-color:rgb(133, 161, 172);
+    Border: 1px solid #ddd;
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    background-color: rgb(245, 242, 244);
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px grey;
+}
+
+.input-box{
+    display: grid;
+    
+    padding: 10px;
+    gap: 0px;
+}
+
+
+
+form h5,h3{
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+  font-family: var(--heading-font);
+}
+
+
+.purpose {
+    display: grid;
+    grid-template-columns: 200px;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;}
+
+
+
+textarea {
+    height: 100px;
+    text-align: center;
+    width: 450px;
+    grid-column: 1 / -1;
+    padding: 10px;
+}
+
+.subscription {
+    grid-column: 1 / -1;
+    padding: 20px;
+}
+
+.form-button {
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: var(--body-font);
+    color: white;
+    background-color: gray;
+    border-radius: 6px;
+    border: none;}
+
+    .form-button:hover{
+        background-color: var(--primary-color);
+    }
+
+
+/* TRIP SECTION */
+ .trip-heading {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 70px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: gainsboro;
+  font-family: var(--heading-font);
+  font-style: italic;
+}
+
+.trip-hero{
+    position: relative;
+}
+
+.trip-hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.article-section{
+
+    Max-width: 840px;
+    width: 800px;
+    opacity: 0.7;
+    background-color:var(--accent1-color); 
+    Border: 1px solid #717070;
+    Box-shadow: 0 0 10px rgba(250, 247, 247, 0.1);
+}
+.article-section p{
+    font-style: italic;
+
+}
+
+.trip-hero article img {
+  float: right;
+  width: 125px; 
+  margin-top: 10px;
+  border-radius: 6px; 
+}
+
+.trip-hero article {
+    position: absolute;
+    top: 538px;
+    left: -16px;
+    right:12px ;
+    opacity: 0.7px;
+    padding: 4px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(222, 219, 219, 0.2);
+}
+
+.trip-section{
+ display:flex;
+align-items: center;
+ justify-content: space-between;
+
+ 
+ 
+ 
+ 
+ }
+ .trips{
+  
+  width: 200px;
+  box-shadow: 20px 20px 20px 0 rgb(0,0,0,0.06);
+}
+.card-container{
+  font-size: 10px;
+  background:linear-gradient(to top, rgb(63, 78, 83), #e3dddd);
+  border-radius: 0 0 10px 10px;
+  padding: 30px;
+ 
+}
+.card-image{
+ 
+ border-radius: 10px 10px 0 0;
+ width:200px;
+ 
+ 
+}
+.family-trip{
+  font-size: 12px;
+  font-family: var(--heading-font);
+  font-weight: bold;
+  border-bottom: 1px solid grey;
+  text-align: center;
+  padding: 6px;
+  text-transform: uppercase;
+
+  
+}
+.family-p{
+  padding: 4px;
+  font-size: 10px;
+
+}
+.price{
+  font-size: 14px;
+ font-weight: bold;
+ color:navy;
+ margin-bottom: 20px;
+}
+.trips a{
+  text-decoration: none;
+  padding: 8px;
+  border: none;
+  background: white;
+  border-radius: 8px;
+  font-weight: bold;
+  color: navy;
+  
+} .price span{
+  color: #000000;
+  padding: 4px;
+  font-weight: 300;
+}
+
+/* TABLE*/
+
+table,th,td{
+  border:4px solid rgb(107, 142, 140);
+  border-collapse: collapse;
+  padding: 10px;
+  
+}
+table caption{
+  font-size: 30px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color:var(--accent1-color);
+  font-family: var(--heading-font);
+}
+.footer{
+ font-size: 26px;
+ font-style: italic;
+} 
+
+/* HOME SECTION*/
+.hero-section{
+  position: relative;
+}
+.hero-section img{
+ display:block;
+  width:100%;
+  height:70vh;
+}
+
+.home-heading{
+  position: absolute;
+  top: 29px;
+  font-family: var(--heading-font);
+  left: 250px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+   text-shadow: 2px 2px grey; 
+  
+}
+.home-heading::first-letter{
+  font-size:40px
+}
+.hero-section a{
+  background-color: transparent ;
+  position: absolute;
+  color:rgb(38, 54, 172);
+  bottom: 50px;
+  left: 310px; 
+  padding: 10px;
+  border-radius:10px ;
+  box-shadow: 1px 2px 2px rgb(209, 205, 205);
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid rgb(132, 131, 131);
+}
+.hero-section a:hover{
+  background-color: rgb(193, 204, 32);
+  color: #fff;
+  box-shadow: 1px 2px 2px rgb(40, 39, 39);
+
+}
+/*HOME PAGE FORM*/
+
+.newsletter{
+    background-color: #e6ebeb;
+    
+}
+
+.news-form{
+  width: 427px;
+  padding: 20px;
+  position: relative;
+
+  
+} 
+.news-form label{
+  font-family: var(--body-font);
+  font-weight: bold;
+  padding: 4px;
+  color:rgb(19, 1, 1);
+
+}
+.news-form button{
+  padding: 10px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 10px;
+  background-color: rgb(205, 200, 200);
+  border: none;
+  cursor: pointer;
+}
+.news-form button:hover{
+  opacity: 0.4;
+}
+.news-form input{
+  margin-bottom: 20px;
+}
+
+ 
+
+/*service & offerings*/
+.images{
+  background-color: #f3f1f1;
+  text-align: center;
+}
+.images h3{
+  font-size: 30px;
+  padding: 10px;
+  font-family: var(--heading-font);
+}
+.image-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) ;
+  align-items: center;
+  padding: 10px;
+  column-gap: 30px;
+}
+
+.images img{
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: 2px 4px 2px rgb(183, 181, 181);
+}
+figcaption{
+  font-size: 15px;
+  color: black;
+  padding: 10px;
+ 
+}
+
+figcaption h5{
+  padding: 4px;
+  color: #C4145D;
+  font-size:18px ;
+}
